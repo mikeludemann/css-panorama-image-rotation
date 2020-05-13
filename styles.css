@@ -1,0 +1,196 @@
+html, body {
+	overflow: hidden;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	perspective: 40em;
+	background: black;
+}
+
+.panorama {
+	transform-style: preserve-3d;
+	animation: rot 20s linear infinite;
+}
+
+.panorama, .panorama * {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.panorama--elements {
+	margin: -50vh -4.92457vw;
+	width: 9.84914vw;
+	height: 100vh;
+	backface-visibility: hidden;
+	background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f3491f04-e23a-435b-9ba5-4e35fd77b16f/dazjhu3-6ca9c32c-5dc3-4c4a-8326-94f356b051de.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZjM0OTFmMDQtZTIzYS00MzViLTliYTUtNGUzNWZkNzdiMTZmXC9kYXpqaHUzLTZjYTljMzJjLTVkYzMtNGM0YS04MzI2LTk0ZjM1NmIwNTFkZS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.pFdHjSdhRoGH6WydDMgnXJlLrjkxYJSImY41tmAKuSg);
+	background-size: 315.17249vw 100%;
+}
+
+.panorama--elements:nth-child(1) {
+	transform: rotateY(0deg) translateZ(-49vw);
+	background-position: 0vw 50%;
+}
+
+.panorama--elements:nth-child(2) {
+	transform: rotateY(11.25deg) translateZ(-49vw);
+	background-position: 9.84914vw 50%;
+}
+
+.panorama--elements:nth-child(3) {
+	transform: rotateY(22.5deg) translateZ(-49vw);
+	background-position: 19.69828vw 50%;
+}
+
+.panorama--elements:nth-child(4) {
+	transform: rotateY(33.75deg) translateZ(-49vw);
+	background-position: 29.54742vw 50%;
+}
+
+.panorama--elements:nth-child(5) {
+	transform: rotateY(45deg) translateZ(-49vw);
+	background-position: 39.39656vw 50%;
+}
+
+.panorama--elements:nth-child(6) {
+	transform: rotateY(56.25deg) translateZ(-49vw);
+	background-position: 49.2457vw 50%;
+}
+
+.panorama--elements:nth-child(7) {
+	transform: rotateY(67.5deg) translateZ(-49vw);
+	background-position: 59.09484vw 50%;
+}
+
+.panorama--elements:nth-child(8) {
+	transform: rotateY(78.75deg) translateZ(-49vw);
+	background-position: 68.94398vw 50%;
+}
+
+.panorama--elements:nth-child(9) {
+	transform: rotateY(90deg) translateZ(-49vw);
+	background-position: 78.79312vw 50%;
+}
+
+.panorama--elements:nth-child(10) {
+	transform: rotateY(101.25deg) translateZ(-49vw);
+	background-position: 88.64226vw 50%;
+}
+
+.panorama--elements:nth-child(11) {
+	transform: rotateY(112.5deg) translateZ(-49vw);
+	background-position: 98.4914vw 50%;
+}
+
+.panorama--elements:nth-child(12) {
+	transform: rotateY(123.75deg) translateZ(-49vw);
+	background-position: 108.34054vw 50%;
+}
+
+.panorama--elements:nth-child(13) {
+	transform: rotateY(135deg) translateZ(-49vw);
+	background-position: 118.18968vw 50%;
+}
+
+.panorama--elements:nth-child(14) {
+	transform: rotateY(146.25deg) translateZ(-49vw);
+	background-position: 128.03882vw 50%;
+}
+
+.panorama--elements:nth-child(15) {
+	transform: rotateY(157.5deg) translateZ(-49vw);
+	background-position: 137.88796vw 50%;
+}
+
+.panorama--elements:nth-child(16) {
+	transform: rotateY(168.75deg) translateZ(-49vw);
+	background-position: 147.73711vw 50%;
+}
+
+.panorama--elements:nth-child(17) {
+	transform: rotateY(180deg) translateZ(-49vw);
+	background-position: 157.58625vw 50%;
+}
+
+.panorama--elements:nth-child(18) {
+	transform: rotateY(191.25deg) translateZ(-49vw);
+	background-position: 167.43539vw 50%;
+}
+
+.panorama--elements:nth-child(19) {
+	transform: rotateY(202.5deg) translateZ(-49vw);
+	background-position: 177.28453vw 50%;
+}
+
+.panorama--elements:nth-child(20) {
+	transform: rotateY(213.75deg) translateZ(-49vw);
+	background-position: 187.13367vw 50%;
+}
+
+.panorama--elements:nth-child(21) {
+	transform: rotateY(225deg) translateZ(-49vw);
+	background-position: 196.98281vw 50%;
+}
+
+.panorama--elements:nth-child(22) {
+	transform: rotateY(236.25deg) translateZ(-49vw);
+	background-position: 206.83195vw 50%;
+}
+
+.panorama--elements:nth-child(23) {
+	transform: rotateY(247.5deg) translateZ(-49vw);
+	background-position: 216.68109vw 50%;
+}
+
+.panorama--elements:nth-child(24) {
+	transform: rotateY(258.75deg) translateZ(-49vw);
+	background-position: 226.53023vw 50%;
+}
+
+.panorama--elements:nth-child(25) {
+	transform: rotateY(270deg) translateZ(-49vw);
+	background-position: 236.37937vw 50%;
+}
+
+.panorama--elements:nth-child(26) {
+	transform: rotateY(281.25deg) translateZ(-49vw);
+	background-position: 246.22851vw 50%;
+}
+
+.panorama--elements:nth-child(27) {
+	transform: rotateY(292.5deg) translateZ(-49vw);
+	background-position: 256.07765vw 50%;
+}
+
+.panorama--elements:nth-child(28) {
+	transform: rotateY(303.75deg) translateZ(-49vw);
+	background-position: 265.92679vw 50%;
+}
+
+.panorama--elements:nth-child(29) {
+	transform: rotateY(315deg) translateZ(-49vw);
+	background-position: 275.77593vw 50%;
+}
+
+.panorama--elements:nth-child(30) {
+	transform: rotateY(326.25deg) translateZ(-49vw);
+	background-position: 285.62507vw 50%;
+}
+
+.panorama--elements:nth-child(31) {
+	transform: rotateY(337.5deg) translateZ(-49vw);
+	background-position: 295.47421vw 50%;
+}
+
+.panorama--elements:nth-child(32) {
+	transform: rotateY(348.75deg) translateZ(-49vw);
+	background-position: 305.32335vw 50%;
+}
+
+@keyframes rot {
+	to {
+		transform: rotateY(1turn);
+	}
+}
